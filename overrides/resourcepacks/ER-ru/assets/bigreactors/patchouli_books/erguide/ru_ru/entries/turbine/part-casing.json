@@ -1,0 +1,25 @@
+{
+    "name": "Кожух",
+    "icon": "bigreactors:turbinehousing",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbinehousing",
+            "link_recipe": true,
+            "title" : "Кожух",
+            "text": "Блоки кожуха — это строительные блоки турбины.$(br2)Они необходимы для постройки её каркаса, поддерживают её $(l:turbine/rotor)ротор$(/l), а также используются для крафта остальных компонентов. Блоками кожуха можно также заполнять грани турбины, если вам не очень нравится стекло.$(br2)Вы скрафтите их немало."
+        },
+        {
+            "type": "crafting",
+            "recipe2": "bigreactors:turbinehousing",
+            "title": "Кожух"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() требуются для постройки каркаса и $(l:turbine/rotor)ротора$(/l)$(br)$(l)Допустимые позиции:$() любые$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

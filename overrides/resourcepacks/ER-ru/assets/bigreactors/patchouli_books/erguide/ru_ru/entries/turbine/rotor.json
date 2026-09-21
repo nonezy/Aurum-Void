@@ -1,0 +1,238 @@
+{
+    "name": "Ротор",
+    "icon": "bigreactors:turbinerotorshaft",
+    "category": "bigreactors:turbine",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ротор — важнейший компонент вашей турбины, поскольку его конструкция напрямую влияет на $(l:turbine/innerworking)выработку энергии$(/l) турбиной.$(br2)Ротор строится из четырёх типов блоков:$(li)один $(l:turbine/part-rotorbearing)опорный подшипник ротора$(/l)$(li)несколько блоков $(l:turbine/part-rotorshaft)вала ротора$(/l)$(li)некоторое количество $(l:turbine/part-rotorblade)лопаток ротора$(/l)$(li)один блок $(l:turbine/part-casing)кожуха$(/l)"
+        },
+        {
+            "type": "multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "bigreactors:turbinebearing",
+                    "S": "bigreactors:turbinerotorshaft[state=Y_NOBLADES]",
+                    "A": "bigreactors:turbinerotorshaft[state=Y_XZ]",
+                    "B": "bigreactors:turbinerotorshaft[state=Y_Z]",
+                    "C": "bigreactors:turbinerotorshaft[state=Y_X]",
+                    "1": "bigreactors:turbinerotorblade[state=Y_X_NEG]",
+                    "3": "bigreactors:turbinerotorblade[state=Y_X_POS]",
+                    "2": "bigreactors:turbinerotorblade[state=Y_Z_NEG]",
+                    "4": "bigreactors:turbinerotorblade[state=Y_Z_POS]",
+                    "X": "bigreactors:turbinehousing"
+                },
+                "pattern": [
+
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   X   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   S   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "   1   ",
+                        "  2A4  ",
+                        "   3   ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "   1   ",
+                        "   1   ",
+                        " 22A44 ",
+                        "   3   ",
+                        "   3   ",
+                        "       "
+                    ],
+                    [
+                        "   1   ",
+                        "   1   ",
+                        "   1   ",
+                        "   C   ",
+                        "   3   ",
+                        "   3   ",
+                        "   3   "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "222B444",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "   1   ",
+                        "   1   ",
+                        "   1   ",
+                        "222A444",
+                        "   3   ",
+                        "   3   ",
+                        "   3   "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   S   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   0   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Постройка ротора$()$(br2)Ротор можно построить вдоль любой из трёх осей турбины (X, Y или Z).$(br2)Первым блоком вашего ротора должен быть $(l:turbine/part-rotorbearing)опорный подшипник ротора$(/l), размещённый на одной из граней турбины, обычно посередине.$(br2)Начиная от подшипника, установите столько блоков $(l:turbine/part-rotorshaft)вала ротора$(/l), сколько потребуется, чтобы достичь противоположной грани турбины, где он должен упереться в $(l:turbine/part-casing)кожух$(/l)."
+        },
+        {
+            "type": "text",
+            "text": "Когда вал готов, настало время разместить $(l:turbine/part-rotorblade)лопатки ротора$(/l). Их можно ставить в любую позицию, перпендикулярную и смежную с $(l:turbine/part-rotorshaft)валом ротора$(/l), либо рядом с уже установленной лопаткой.$(br2)Ваш ротор может иметь сколько угодно лопаток в любой комбинации.$(br)Однако важно отметить, что количество лопаток, наряду с их пропускной способностью по пару, напрямую влияет на скорость ротора."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Сколько лопаток?$()$(br2)Каждая лопатка имеет максимальную пропускную способность по пару в 25 mB: это максимум пара, который она может уловить и $(italic)использовать$() для вращения ротора.$(br2)Используйте это значение, чтобы рассчитать, сколько лопаток вам нужно для обработки потока пара, заданного для вашей турбины (в графическом интерфейсе контроллера)."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Индукционные катушки$()$(br2)Чтобы действительно вырабатывать энергию, вам нужно разместить хотя бы несколько $(l:turbine/coils)индукционных катушек$(/l) в конце вашего ротора (рядом с замыкающим блоком $(l:turbine/part-casing)кожуха$(/l).$(br2)$(italic)И не забудьте подключить их в графическом интерфейсе $(l:turbine/part-controller)контроллера$(/l)!$()$(br2)Вы можете разместить до трёх колец катушек, каждое кольцо состоит из максимум восьми блоков катушек."
+        },
+        {
+            "type": "text",
+            "text": "Смешивать типы катушек разрешено, и если вы это сделаете, турбина возьмёт среднее значение их характеристик.$(br2)Это позволяет начать с легко доступных или дешёвых катушек, а затем постепенно заменять их, вместо того чтобы ждать, пока у вас на руках окажутся более редкие или дорогие катушки.$(br2)На следующей странице вы увидите пример ротора, показанного ранее, с добавленными $(l:turbine/coils)индукционными катушками$(/l)."
+        },
+
+        {
+            "type": "multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "bigreactors:turbinebearing",
+                    "S": "bigreactors:turbinerotorshaft[state=Y_NOBLADES]",
+                    "A": "bigreactors:turbinerotorshaft[state=Y_XZ]",
+                    "B": "bigreactors:turbinerotorshaft[state=Y_Z]",
+                    "C": "bigreactors:turbinerotorshaft[state=Y_X]",
+                    "1": "bigreactors:turbinerotorblade[state=Y_X_NEG]",
+                    "3": "bigreactors:turbinerotorblade[state=Y_X_POS]",
+                    "2": "bigreactors:turbinerotorblade[state=Y_Z_NEG]",
+                    "4": "bigreactors:turbinerotorblade[state=Y_Z_POS]",
+                    "X": "bigreactors:turbinehousing",
+                    "I": "minecraft:iron_block",
+                    "G": "minecraft:gold_block"
+                },
+                "pattern": [
+
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   X   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "  IGG  ",
+                        "  GSI  ",
+                        "  GII  ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "   1   ",
+                        "  2A4  ",
+                        "   3   ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "   1   ",
+                        "   1   ",
+                        " 22A44 ",
+                        "   3   ",
+                        "   3   ",
+                        "       "
+                    ],
+                    [
+                        "   1   ",
+                        "   1   ",
+                        "   1   ",
+                        "   C   ",
+                        "   3   ",
+                        "   3   ",
+                        "   3   "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "222B444",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "   1   ",
+                        "   1   ",
+                        "   1   ",
+                        "222A444",
+                        "   3   ",
+                        "   3   ",
+                        "   3   "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   S   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   0   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ]
+                ]
+            }
+        }
+    ]
+}

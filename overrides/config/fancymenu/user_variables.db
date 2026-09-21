@@ -1,0 +1,7 @@
+type = cached_variables
+
+variables {
+  net.minecraft.client.gui.GuiOptions = 110
+  net.minecraft.client.gui.GuiOptions:345154 = 35
+}
+

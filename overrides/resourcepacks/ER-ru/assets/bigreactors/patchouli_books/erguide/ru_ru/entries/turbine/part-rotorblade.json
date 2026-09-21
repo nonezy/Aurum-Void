@@ -1,0 +1,25 @@
+{
+    "name": "Лопатка ротора",
+    "icon": "bigreactors:turbinerotorblade",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbinerotorblade",
+            "link_recipe": true,
+            "title" : "Лопатка ротора",
+            "text": "Лопатка ротора — последний компонент вашего $(l:turbine/rotor)ротора$(/l), но именно она заставляет его вращаться.$(br2)Лопатку ротора можно разместить только перпендикулярно блоку $(l:turbine/part-rotorshaft)вала ротора$(/l) или рядом с уже установленной лопаткой, в направлении от блока вала."
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:turbinerotorblade",
+            "title": "Лопатка ротора"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() да$(br)$(l)Допустимые позиции:$() внутри турбины, рядом с другой лопаткой или блоком вала ротора$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

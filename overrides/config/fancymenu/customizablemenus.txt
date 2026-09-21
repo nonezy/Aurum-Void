@@ -1,0 +1,11 @@
+type = customizablemenus
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+

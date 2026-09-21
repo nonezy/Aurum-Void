@@ -1,0 +1,25 @@
+filename = 'movingelevators-1.4.12-forge-mc1.12.jar'
+name = 'Moving Elevators'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.4.12-forge-mc1.12'
+
+[download]
+hash = '5155caad1f76f8e49bb05210e8d88125199dc8ec5598f9947492414cd90e0a73c853c9ee59ebdccddf4ae7a0b152032191df958022291733781d1abc39969803'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9KZOe6HD/versions/eSCQSnUy/movingelevators-1.4.12-forge-mc1.12.jar'
+
+[update.modrinth]
+mod-id = '9KZOe6HD'
+version = 'eSCQSnUy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LN9BxssP'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rOUBggPv'
+type = 'REQUIRED'

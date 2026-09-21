@@ -1,0 +1,20 @@
+{
+    "name": "Творческий порт хладагента",
+    "icon": "bigreactors:reactorcreativecoolantport",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reactorcreativecoolantport",
+            "link_recipe": true,
+            "title" : "Творческий порт хладагента",
+            "text": "Творческий порт хладагента — это доступный только в творческом режиме компонент, служащий постоянным источником воды для реактора с $(l:reactor/active)активным охлаждением$(/l)."
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Творческий режим:$() этот компонент доступен только в творческом режиме, и рецепта крафта для него нет"
+        }
+    ]
+}

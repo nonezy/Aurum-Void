@@ -1,0 +1,10 @@
+{
+    "name": "The Extreme Book",
+    "version": 1,
+    "landing_text": "Добро пожаловать в «Основы Extreme Reactors» — или, если коротко, в «Extreme Book».$(br2)Extreme Reactors — это мод, посвящённый выработке экстремальных объёмов энергии эффективным способом, и эта книга станет вашим проводником на пути к этой цели!",
+    "creative_tab": "bigreactors.general",
+    "show_progress": false,
+    "show_toasts": false,
+    "model": "bigreactors:erguide",
+    "book_texture": "patchouli:textures/gui/book_gray.png"
+}

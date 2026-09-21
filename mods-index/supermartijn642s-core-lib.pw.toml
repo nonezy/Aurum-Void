@@ -1,0 +1,18 @@
+filename = '_supermartijn642corelib-1.1.21-forge-mc1.12.jar'
+name = "SuperMartijn642's Core Lib"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.21-forge-mc1.12'
+
+[download]
+hash = '158aef08761efa6074f267ccc1bec7ecc6f5c11361807631e4e4758db9a893c06e3e50b356149d34507ec7415a20d86b83f28a0684d48d570a187dc9687ce0e8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rOUBggPv/versions/Didw1oPD/_supermartijn642corelib-1.1.21-forge-mc1.12.jar'
+
+[update.modrinth]
+mod-id = 'rOUBggPv'
+version = 'Didw1oPD'

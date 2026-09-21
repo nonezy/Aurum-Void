@@ -1,0 +1,18 @@
+filename = 'Galacticraft-1.12.2-4.0.6.jar'
+name = 'Galacticraft-Legacy'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.0.6'
+
+[download]
+hash = 'eed4e0f5750cdaedf8932a67bb7b24fb0a67822e9e5dbe2482d52264963f7c7b11aafef0cf47be13ccd92ae225140a24885c0dd63232806265b61a72206173b0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZnmdXAk2/versions/GPQtYzIX/Galacticraft-1.12.2-4.0.6.jar'
+
+[update.modrinth]
+mod-id = 'ZnmdXAk2'
+version = 'GPQtYzIX'

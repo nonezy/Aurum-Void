@@ -1,0 +1,29 @@
+{
+    "name": "Вывод энергии Tesla",
+    "icon": "bigreactors:reactorpowertaptesla",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reactorpowertaptesla",
+            "link_recipe": true,
+            "title" : "Вывод энергии Tesla",
+            "text": "Вывод энергии Tesla позволяет извлекать энергию из реактора с $(l:reactor/passive)пассивным охлаждением$(/l).$(br2)Этот вывод может передавать энергию, используя $(l:misc/powersystem)энергосистему$(/l) Tesla, и подключаться только к трубам или машинам, совместимым с этой системой."
+        },
+        {
+            "type": "text",
+            "text": "Для постройки одного реактора можно использовать только один тип вывода энергии."
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactorpowertaptesla",
+            "title": "Вывод энергии Tesla"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Энергосистема:$() Tesla"
+        }
+    ]
+}

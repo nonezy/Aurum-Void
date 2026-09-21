@@ -1,0 +1,25 @@
+{
+    "name": "Корпус",
+    "icon": "bigreactors:reactorcasing",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reactorcasing",
+            "link_recipe": true,
+            "title" : "Корпус",
+            "text": "Блоки корпуса — это строительные блоки реактора.$(br2)Они необходимы для постройки его каркаса, а также используются для крафта остальных компонентов. Блоками корпуса можно также заполнять грани реактора, если вам не очень нравится стекло.$(br2)Вы скрафтите их целую тонну."
+        },
+        {
+            "type": "crafting",
+            "recipe2": "bigreactors:reactorcasing",
+            "title": "Корпус"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() требуются для постройки каркаса$(br)$(l)Допустимые позиции:$() любые$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

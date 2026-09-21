@@ -1,0 +1,170 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -360
+  action = movebutton
+  y = 91
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_return_to_game_button%btnaction_splitter_fm%
+  backgroundhovered = sources/resume.png
+  label = 
+  loopbackgroundanimations = true
+  x = -140
+  width = 121
+  action = addbutton
+  actionid = fcddecee-b53d-4672-bf81-1157ad4fd3e51789943574303
+  y = -380
+  backgroundnormal = sources/resume.png
+  height = 61
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_advancements_button%btnaction_splitter_fm%
+  backgroundhovered = sources/achievments.png
+  label = 
+  loopbackgroundanimations = true
+  x = -140
+  width = 121
+  action = addbutton
+  actionid = 3647ae91-760c-46ab-a8b9-05ce666ee15b1789943784155
+  y = -290
+  backgroundnormal = sources/achievments.png
+  height = 61
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_stats_button%btnaction_splitter_fm%
+  backgroundhovered = sources/statistic.png
+  label = 
+  loopbackgroundanimations = true
+  x = 10
+  width = 121
+  action = addbutton
+  actionid = 95a82849-3ff6-4ec4-a9c9-688f7468ce3b1789943878052
+  y = -290
+  backgroundnormal = sources/statistic.png
+  height = 61
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_lan_button%btnaction_splitter_fm%
+  backgroundhovered = sources/lan.png
+  label = 
+  loopbackgroundanimations = true
+  x = 10
+  width = 121
+  action = addbutton
+  actionid = de8c178a-3e74-4555-8e22-23ebcf9622ab1789944047151
+  y = -380
+  backgroundnormal = sources/lan.png
+  height = 61
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_options_button%btnaction_splitter_fm%
+  backgroundhovered = sources/options.png
+  label = 
+  loopbackgroundanimations = true
+  x = -140
+  width = 121
+  action = addbutton
+  actionid = 5828277f-968b-4194-9c68-f297c37340c61789944116853
+  y = -200
+  backgroundnormal = sources/options.png
+  height = 62
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:forge_pausescreen_mods_button%btnaction_splitter_fm%
+  backgroundhovered = sources/mod_options.png
+  label = 
+  loopbackgroundanimations = true
+  x = 10
+  width = 121
+  action = addbutton
+  actionid = 519eb609-3637-44cf-8364-4b71860bce7b1789944222152
+  y = -200
+  backgroundnormal = sources/mod_options.png
+  height = 61
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_disconnect_button%btnaction_splitter_fm%
+  backgroundhovered = sources/exit.png
+  label = 
+  loopbackgroundanimations = true
+  x = -75
+  width = 150
+  action = addbutton
+  actionid = d93ba27a-e064-48e7-b5f1-8edaf3cf2f6b1789944337658
+  y = -110
+  backgroundnormal = sources/exit.png
+  height = 50
+}
+

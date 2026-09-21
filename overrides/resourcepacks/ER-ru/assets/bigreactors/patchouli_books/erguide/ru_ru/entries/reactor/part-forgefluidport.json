@@ -1,0 +1,25 @@
+{
+    "name": "Порт хладагента",
+    "icon": "bigreactors:reactorcoolantport",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reactorcoolantport",
+            "link_recipe": true,
+            "title" : "Порт хладагента",
+            "text": "Порт хладагента позволяет подавать жидкости в реактор с $(l:reactor/active)активным охлаждением$(/l) или отводить их из него.$(br2)Этот порт принимает и выделяет ванильные жидкости, но только если они являются допустимыми $(l:misc/coolantsystem)хладагентами или парами$(/l).$(br2)$(l:misc/wrench)Гаечный ключ$(/l) можно использовать, чтобы переключить порт из режима ввода в режим вывода."
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactorcoolantport",
+            "title": "Порт хладагента"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Гаечный ключ:$() $(l:misc/wrench)гаечный ключ$(/l) можно использовать для переключения режима порта"
+        }
+    ]
+}

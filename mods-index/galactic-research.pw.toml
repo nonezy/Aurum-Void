@@ -1,0 +1,25 @@
+filename = 'GalacticResearch-1.1.3.jar'
+name = 'Galactic Research'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.3'
+
+[download]
+hash = '41c1f651df49d5bd17bb48302e5f851a77992abccd96e9f2d0d80bea2e9f177b62a9b8799d19a8187d605a05c9d85ae2deaca1f4b4a206746cbd4c32e1c76380'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9vMLqC00/versions/eRmZTF4E/GalacticResearch-1.1.3.jar'
+
+[update.modrinth]
+mod-id = '9vMLqC00'
+version = 'eRmZTF4E'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ZnmdXAk2'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nU0bVIaL'
+type = 'OPTIONAL'

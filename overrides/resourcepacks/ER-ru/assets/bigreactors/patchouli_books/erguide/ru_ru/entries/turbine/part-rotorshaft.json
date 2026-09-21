@@ -1,0 +1,25 @@
+{
+    "name": "Вал ротора",
+    "icon": "bigreactors:turbinerotorshaft",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbinerotorshaft",
+            "link_recipe": true,
+            "title" : "Вал ротора",
+            "text": "Вал ротора — основной компонент $(l:turbine/rotor)ротора$(/l) турбины.$(br2)Блоки вала ротора должны быть установлены один за другим внутри турбины и охватывать всю её длину — начиная от $(l:turbine/part-rotorbearing)опорного подшипника ротора$(/l) и заканчивая блоком $(l:turbine/part-casing)кожуха$(/l) на противоположной стороне.$(br2)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:turbinerotorshaft",
+            "title": "Вал ротора"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() да$(br)$(l)Допустимые позиции:$() внутри турбины$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

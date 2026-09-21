@@ -1,0 +1,25 @@
+{
+    "name": "Опорный подшипник ротора",
+    "icon": "bigreactors:turbinebearing",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbinebearing",
+            "link_recipe": true,
+            "title" : "Опорный подшипник ротора",
+            "text": "Опорный подшипник ротора — это основа сборки $(l:turbine/rotor)ротора$(/l) вашей турбины.$(br2)Его необходимо разместить на одной из граней турбины, обычно в центре, а следом за ним — несколько блоков $(l:turbine/part-rotorshaft)вала ротора$(/l)."
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:turbinebearing",
+            "title": "Опорный подшипник ротора"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() требуется один, и только один$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

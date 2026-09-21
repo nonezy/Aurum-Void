@@ -1,0 +1,15 @@
+{
+    "name": "Extreme-гаечный ключ",
+    "icon": "bigreactors:wrench",
+    "category": "bigreactors:misc",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:wrench",
+            "link_recipe": true,
+            "title" : "Extreme-гаечный ключ",
+            "text": "Extreme-гаечный ключ — это... хм... гаечный ключ.$(br2)С его помощью можно переключать режим ввода/вывода у таких компонентов, как порт доступа или порты хладагента."
+        }
+    ]
+}

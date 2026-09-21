@@ -1,0 +1,29 @@
+filename = 'fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar'
+name = 'FancyMenu'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12', '1.12.1', '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.14.9-1.12-1.12.2-forge'
+
+[download]
+hash = 'a1be989a0f36165c28a40f5a41f71446164ab48c7ccf1279a39f692a266b2eb2fcafebd5bc648cff783b1443c445d13eed640f1777dafe8e35a6bb7bdf5b6983'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Wq5SjeWM/versions/VCIrxpB6/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar'
+
+[update.modrinth]
+mod-id = 'Wq5SjeWM'
+version = 'VCIrxpB6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'J81TRJWm'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'TqCKvqjC'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6a16628x'
+type = 'REQUIRED'

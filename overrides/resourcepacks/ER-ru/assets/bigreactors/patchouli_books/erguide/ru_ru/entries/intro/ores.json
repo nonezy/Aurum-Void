@@ -1,0 +1,38 @@
+{
+    "name": "Руды",
+    "icon": "bigreactors:oreyellorite",
+    "category": "bigreactors:intro",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:oreyellorite",
+            "text": "Обычный источник топлива, на котором будут работать ваши реакторы.$(br2)Иеллорит можно найти почти во всех биомах, и его можно переплавить для получения слитков иеллориума."
+        },
+        {
+            "type": "smelting",
+            "recipe": "bigreactors:oreyellorite",
+            "text": "Иеллориум в виде слитка или блока можно поместить в порт доступа, чтобы превратить его в топливо для вашего реактора."
+        },
+        {
+            "type": "spotlight",
+            "item": "bigreactors:orebenitoite",
+            "text": "Эта руда встречается только в самых отдалённых глубинах ада.$(br2)Посмотрите вверх. Или вниз."
+        },
+        {
+            "type": "spotlight",
+            "item": "bigreactors:mineralbenitoite",
+            "text": "Кристаллы бенитоита обладают необычными свойствами, которым вы пока так и не нашли применения."
+        },
+        {
+            "type": "spotlight",
+            "item": "bigreactors:oreanglesite",
+            "text": "Вам нужно добраться до конца своего пути, чтобы найти эту неуловимую руду."
+        },
+        {
+            "type": "spotlight",
+            "item": "bigreactors:mineralanglesite",
+            "text": "Кристаллы блестящие и красивые, но вы всё ещё не знаете, как использовать их себе во благо."
+        }
+    ]
+}

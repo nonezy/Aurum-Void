@@ -1,0 +1,20 @@
+{
+    "name": "Творческий генератор пара",
+    "icon": "bigreactors:turbinecreativesteamgenerator",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbinecreativesteamgenerator",
+            "link_recipe": true,
+            "title" : "Генератор пара",
+            "text": "Генератор пара — это доступный только в творческом режиме компонент, служащий постоянным источником пара для турбины."
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Творческий режим:$() этот компонент доступен только в творческом режиме, и рецепта крафта для него нет"
+        }
+    ]
+}

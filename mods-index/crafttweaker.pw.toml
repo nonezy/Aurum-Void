@@ -1,0 +1,18 @@
+filename = 'CraftTweaker2-1.12-4.1.20.698.jar'
+name = 'CraftTweaker'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '4.1.20.698'
+
+[download]
+hash = '06d7fbf5de5b5793174c4a1d8e3d2440611db2bd7d77f95dd12ad5fc6540c17d45b0ce1c8b72c5abfc26a9bd68a21df8582d4360394bb4cb4ae4240212a0f748'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Xg35A4rS/versions/YRKoIQBv/CraftTweaker2-1.12-4.1.20.698.jar'
+
+[update.modrinth]
+mod-id = 'Xg35A4rS'
+version = 'YRKoIQBv'

@@ -1,0 +1,25 @@
+{
+    "name": "Жидкостный порт",
+    "icon": "bigreactors:turbinefluidport",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbinefluidport",
+            "link_recipe": true,
+            "title" : "Жидкостный порт",
+            "text": "Жидкостный порт позволяет подавать жидкости в турбину или отводить их из неё.$(br2)Этот порт принимает и выделяет ванильные жидкости, но только если они являются допустимыми $(l:misc/coolantsystem)хладагентами или парами$(/l).$(br2)$(l:misc/wrench)Гаечный ключ$(/l) можно использовать, чтобы переключить порт из режима ввода в режим вывода."
+        },
+        {
+            "type": "crafting",
+            "recipe2": "bigreactors:turbinefluidport",
+            "title": "Жидкостный порт"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Гаечный ключ:$() $(l:misc/wrench)гаечный ключ$(/l) можно использовать для переключения режима порта"
+        }
+    ]
+}

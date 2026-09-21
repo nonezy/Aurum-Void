@@ -1,0 +1,30 @@
+# Личное / генерируемое
+saves/
+logs/
+crash-reports/
+screenshots/
+server-resource-packs/
+xaero/
+XaeroWaypoints_BACKUP*/
+usercache.json
+usernamecache.json
+patchouli_data.json
+fancymenu_data/
+fancymenu_setups/
+crafttweaker.log
+tv-cache/
+*.log
+*.log.gz
+
+# Скачиваемое автоматически
+overrides/resourcepacks/Minecraft-Mod-Language-Modpack.zip
+overrides/scripts/*.log
+
+# Системное
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Releases (не в git, а в GitHub Releases)
+*.mrpack

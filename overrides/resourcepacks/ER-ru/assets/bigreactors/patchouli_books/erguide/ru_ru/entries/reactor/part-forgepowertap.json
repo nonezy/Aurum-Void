@@ -1,0 +1,29 @@
+{
+    "name": "Вывод энергии Redstone Flux",
+    "icon": "bigreactors:reactorpowertaprf",
+    "category": "bigreactors:reactor-parts",
+    "read_by_default": true,
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:reactorpowertaprf",
+            "link_recipe": true,
+            "title" : "Вывод энергии Redstone Flux",
+            "text": "Вывод энергии Redstone Flux позволяет извлекать энергию из реактора с $(l:reactor/passive)пассивным охлаждением$(/l).$(br2)Этот вывод может передавать энергию, используя $(l:misc/powersystem)энергосистемы$(/l) Redstone Flux или Forge Energy, и подключаться только к трубам или машинам, совместимым с этими системами."
+        },
+        {
+            "type": "text",
+            "text": "Для постройки одного реактора можно использовать только один тип вывода энергии."
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:reactorpowertaprf",
+            "title": "Вывод энергии Redstone Flux"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет$(br)$(l)Энергосистема:$() Redstone Flux и Forge Energy"
+        }
+    ]
+}

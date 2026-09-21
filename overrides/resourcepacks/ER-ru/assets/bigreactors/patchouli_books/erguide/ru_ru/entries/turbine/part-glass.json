@@ -1,0 +1,25 @@
+{
+    "name": "Стекло",
+    "icon": "bigreactors:turbineglass",
+    "category": "bigreactors:turbine-parts",
+    "read_by_default": true,
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "bigreactors:turbineglass",
+            "link_recipe": true,
+            "title" : "Стекло",
+            "text": "Стеклянные блоки — это декоративные блоки, которые можно использовать вместо блока $(l:turbine/part-casing)кожуха$(/l), чтобы показать внутреннее устройство турбины."
+        },
+        {
+            "type": "crafting",
+            "recipe": "bigreactors:turbineglass_vanillaglass",
+            "title": "Стекло"
+        },
+        {
+            "type": "part_usage",
+            "text": "$(l)Обязательно:$() нет$(br)$(l)Допустимые позиции:$() любая грань (не на каркасе)$(br)$(l)Графический интерфейс:$() нет"
+        }
+    ]
+}

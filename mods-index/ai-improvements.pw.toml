@@ -1,0 +1,18 @@
+filename = 'AIImprovements-1.12-0.0.1b3.jar'
+name = 'AI Improvements: Performance Tuning'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.0.1b3'
+
+[download]
+hash = '90e12cb0d98cc1003cfee3bc9e97adc27292d9c42ac5447237588bd3705f03a599b55ef060e32e119a9d00eb57fb52426f6e72ec60611de9b2ed7e40b74f1809'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DSVgwcji/versions/kOyZhvg3/AIImprovements-1.12-0.0.1b3.jar'
+
+[update.modrinth]
+mod-id = 'DSVgwcji'
+version = 'kOyZhvg3'

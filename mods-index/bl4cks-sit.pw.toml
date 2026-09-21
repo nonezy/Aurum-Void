@@ -1,0 +1,18 @@
+filename = 'sit-1.12.2-v1.3.jar'
+name = 'Sit'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.12.2' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.3'
+
+[download]
+hash = 'cfc82535a0ccf0e248743bb1eadccd42c4df886b89cbd25f5c10f199cf414049ed9df36a2a57c11da44011de334a4996e0fd40bb9841d008ea1f7ca290d51cef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VKXzIykF/versions/EzTj5ssf/sit-1.12.2-v1.3.jar'
+
+[update.modrinth]
+mod-id = 'VKXzIykF'
+version = 'EzTj5ssf'
