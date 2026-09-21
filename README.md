@@ -24,3 +24,4 @@
 ## Благодарности
 
 Огромное спасибо всем авторам модов, вошедших в сборку.
+<img width="1480" height="2300" alt="v0 1-v0 2_roadmap" src="https://github.com/user-attachments/assets/d41f76e2-e338-438c-84c2-12e9164abdd1" />
