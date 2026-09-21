@@ -1,6 +1,6 @@
 {
   "use-stencil": true,
-  "use-optifine-compat": true,
+  "use-optifine-compat": false,
   "palette": [
     {
       "name": "basic",

@@ -14,7 +14,12 @@ customization {
 }
 
 customization {
-  keepaspectratio = false
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = true
   action = backgroundoptions
 }
 
