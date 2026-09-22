@@ -72,6 +72,6 @@ Jar-файлы сторонних модов **не хранятся** в реп
 
 ## 🔗 Ссылки
 
-- 💬 [Telegram](https://t.me/ВСТАВЬ_ССЫЛКУ)
+- 💬 [Telegram](https://t.me/Aurum_Void)
 - 🐙 [GitHub](https://github.com/nonezy/Aurum-Void)
 - 📦 [Releases](https://github.com/nonezy/Aurum-Void/releases)
