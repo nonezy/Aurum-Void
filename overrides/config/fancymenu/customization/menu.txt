@@ -1,0 +1,121 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = sources/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 180
+  width = 291
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 5c30060d-2e2a-4aff-bad7-32708632148b1790084243520
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 115
+  action = deep_customization_element:title_screen_branding
+  actionid = 652f4dd5-a72b-4628-8eaa-c50854f8907b1790084243529
+  y = 315
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 431
+  width = 218
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = cb1f00af-8bd4-4ab6-aaa5-2615ac92d9171790084243529
+  y = 337
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 428
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d87d7a50-2524-4be1-8084-05250a361bbd1790084243530
+  y = 189
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 188
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 139d206b-377a-43d3-b942-c89e87105e331790084243530
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 54fbb25c-7af9-42fc-bfbe-764b52a59a7f1790084243530
+  y = 0
+  height = 30
+}
+
+customization {
+  path = sources/logo.png
+  orientation = top-centered
+  x = -159
+  width = 319
+  actionid = ab2fcec7-0f35-47ad-84e2-4bbfdb5b23941790084685411
+  action = addtexture
+  y = 17
+  height = 101
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  actionid = e1dd3d64-7a0b-4d0f-a82a-3ee02fb93c921790084769255
+  action = addtexture
+  y = 15
+  height = 100
+}
+
+customization {
+  path = sources/moon.png
+  orientation = bottom-left
+  x = 4
+  width = 51
+  actionid = ca786161-ca95-40b8-a474-c3a104229c071790084861465
+  action = addtexture
+  y = -59
+  height = 51
+}
+

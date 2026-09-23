@@ -28,3 +28,7 @@ Thumbs.db
 
 # Releases (не в git, а в GitHub Releases)
 *.mrpack
+xaeropatreon.txt
+*.bak
+*.backup
+xaeropatreon.txt
