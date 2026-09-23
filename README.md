@@ -43,14 +43,12 @@ Jar-файлы сторонних модов **не хранятся** в реп
 
 ## 🗺️ Roadmap
 
-<img width="1480" height="2300" alt="roadmap" src="https://github.com/user-attachments/assets/d41f76e2-e338-438c-84c2-12e9164abdd1" width="600" />
-
 - [x] Оптимизация конфигов
 - [x] Чистка модов для стабильности с Galacticraft
 - [x] Telegram-канал
 - [x] GUI/UI текстурпак
 - [x] Адаптация FancyMenu под текстурпак
-- [ ] Публикация на Modrinth / CurseForge
+- [x] Публикация на Modrinth / CurseForge
 - [x] Релиз v0.2
 
 ## 📜 Changelog
