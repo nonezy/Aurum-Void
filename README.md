@@ -1,6 +1,7 @@
 # Aurum Void
 
-<img width="1254" height="1254" alt="icon" src="https://github.com/user-attachments/assets/3b7f1478-19a4-4f2e-91b6-715707ef7570" width="300" />
+<img width="1024" height="1024" alt="1024" src="https://github.com/user-attachments/assets/728b145c-d2f5-43d4-be3b-25241939ce14" />
+
 
 Сборка модов для **Minecraft 1.12.2** на **Forge 14.23.5.2864**.
 
